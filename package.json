@@ -1,0 +1,41 @@
+{
+	"name": "cbr-scripts",
+	"version": "1.0.0",
+	"description": "Build scripts for webpack projects",
+	"main": "./lib/index.js",
+	"repository": "https://github.com/esizer/cbr-build",
+	"author": "Eric Sizer <esizer@gmail.com>",
+	"license": "MIT",
+	"files": [
+		"lib",
+		"src"
+	],
+	"scripts": {
+		"build": "node bin/cbr-scripts.js build -n fp-helps -c ./resources/build/webpack.config.json",
+		"start": "node bin/cbr-scripts.js start -n fp-helps -c ./resources/build/webpack.config.json",
+		"test": "node bin/cbr-scripts.js --help",
+		"error": "node bin/cbr-scripts.js error"
+	},
+	"bin": {
+		"cbr-scripts": "./bin/cbr-scripts.js"
+	},
+	"keywords": [
+		"webpack",
+		"npm",
+		"scripts",
+		"build"
+	],
+	"dependencies": {
+		"chalk": "^2.4.2",
+		"cross-spawn": "^6.0.5",
+		"eslint": "^6.1.0",
+		"filesize": "^4.1.2",
+		"gzip-size": "^5.1.1",
+		"meow": "^5.0.0",
+		"ora": "^3.4.0",
+		"prettier": "^1.18.2",
+		"resolve-pkg": "^2.0.0",
+		"terser-webpack-plugin": "^1.4.1",
+		"webpack": "^4.39.0"
+	}
+}
