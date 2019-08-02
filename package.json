@@ -10,12 +10,6 @@
 		"lib",
 		"src"
 	],
-	"scripts": {
-		"build": "node bin/cbr-scripts.js build -n fp-helps -c ./resources/build/webpack.config.json",
-		"start": "node bin/cbr-scripts.js start -n fp-helps -c ./resources/build/webpack.config.json",
-		"test": "node bin/cbr-scripts.js --help",
-		"error": "node bin/cbr-scripts.js error"
-	},
 	"bin": {
 		"cbr-scripts": "./bin/cbr-scripts.js"
 	},
