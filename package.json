@@ -1,6 +1,6 @@
 {
 	"name": "cbr-scripts",
-	"version": "1.0.0",
+	"version": "0.0.1",
 	"description": "Build scripts for webpack projects",
 	"main": "./lib/index.js",
 	"repository": "https://github.com/esizer/cbr-build",
